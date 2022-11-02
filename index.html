@@ -1,54 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
 
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
 
-  <!-- AOS -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="icon" href="images/64.png">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" href="images/64.png">
 
-  <!-- FAVICON -->
-  <link class="favicon" rel="icon" type="image/img" sizes="32x32" href="images/favicon-32x32.png">
+    <!-- FAVICON -->
+    <link class="favicon" rel="icon" type="image/img" sizes="32x32"
+      href="images/favicon-32x32.png">
 
-  <!-- Google material icons -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- Google material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet" />
 
-   <!-- CSS -->
-  <link rel="stylesheet" href="style.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
 
-   <!-- FONT AWESOME -->
-  <script src="https://kit.fontawesome.com/{{YOUR KIT KEY}}.js" crossorigin="anonymous"></script>
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/{{YOUR KIT KEY}}.js"
+      crossorigin="anonymous"></script>
 
-   <!-- TYPE JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
-    integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- TYPE JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+      integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-   <!-- jQUERY -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- jQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-   <!-- SWEET ALERT -->
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- SWEET ALERT -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-   <!-- EMAIL JS -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-  <script type="text/javascript">
+    <!-- EMAIL JS -->
+    <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
     (function () {
       emailjs.init("86YYhtquJeJVteDnJ");
     })();
   </script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <nav class="navbar">
       <div class="progress-container">
         <div class="progress-bar" id="myBar"></div>
-      </div> 
+      </div>
       <div class="max-width">
         <div class="logo">
           <a href="#">My<span> Portfolio.</span></a>
@@ -66,229 +70,254 @@
         </div>
       </div>
     </nav>
-  <!-- Scroll to top button -->
+    <!-- Scroll to top button -->
     <button id="btnScrollToTop">
       <i class="material-icons">arrow_upward</i>
     </button>
-    
-  <!-- home section start-->
-  <section class="home" id="home">
-    <div class="max-width">
-      <div class="home-content">
-        <div class="text-1" data-aos="fade-up">Hello, my name is</div>
-        <div class="text-2">Muhammad Arshad</div>
-        <div class="text-3">I am a <span class="typing"></span></div>
-      </div>
-    </div>
-  </section>
 
-  <!-- about section -->
-  <section class="about" id="about">
-    <div class="max-width">
-      <h2 class="title" data-aos="fade-down" >About Me</h2>
-      <div class="about-content">
-        <div class="column left" data-aos="fade-right" >
-          <img src="images/background.png" alt="" />
+    <!-- home section start-->
+    <section class="home" id="home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-1" data-aos="fade-up">Hello, my name is</div>
+          <div class="text-2">Muhammad Arshad</div>
+          <div class="text-3">I am a <span class="typing"></span></div>
         </div>
-        <div class="column right" data-aos="fade-up">
-          <div class="text">
-            I'm Muhammad Arshad and I am a <span class="typing-2"></span>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+      <div class="max-width">
+        <h2 class="title" data-aos="fade-down">About Me</h2>
+        <div class="about-content">
+          <div class="column left" data-aos="fade-right">
+            <img src="images/background.png" alt="" />
           </div>
-          <p class="paragraph">
-            I am a self-motivated and dedicated individual. I studied Plus-Two Computer Science and have prior knowledge of C++ and Python. I am seeking an internship position in an IT company and am interested in being part of their dedicated work team.
-          </p>
-          <!-- <a href="{{GOOGLE DRIVE LINK FOR RESUME}}">Download
+          <div class="column right" data-aos="fade-up">
+            <div class="text">
+              I'm Muhammad Arshad and I am a <span class="typing-2"></span>
+            </div>
+            <p class="paragraph">
+              I am a self-motivated and dedicated individual. I studied Plus-Two
+              Computer Science and have prior knowledge of C++ and Python. I am
+              seeking an internship position in an IT company and am interested
+              in being part of their dedicated work team.
+            </p>
+            <!-- <a href="{{GOOGLE DRIVE LINK FOR RESUME}}">Download
             Resume</a> -->
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Services Section -->
-  <section class="services" id="services">
-    <div class="max-width">
-      <h2 class="title" data-aos="fade-down">My Services</h2>
-      <div class="serv-content">
-        <div class="card" data-aos="flip-left">
-          <div class="box">
-            <i class="fas fa-laptop-code"></i>
-            <div class="text">Web Design</div>
-            <p>
-              Provides minimalistic, elegant, and unique design.
-            </p>
-          </div>
-        </div>
-
-        <div class="card" data-aos="flip-left">
-          <div class="box">
-            <i class="fas fa-code"></i>
-            <div class="text">Web Development</div>
-            <p>
-              Makes efficient, minimalistic webpages.
-            </p>
-          </div>
-        </div>
-
-        <div class="card" data-aos="flip-left">
-          <div class="box">
-            <i class="fas fa-mobile-alt"></i>
-            <div class="text">Advertising</div>
-            <p>
-              Catchy advertisements to help reach more heights.
-            </p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- skills section services -->
-  <section class="skills" id="skills">
-    <div class="max-width" data-aos="fade-down">
-      <h2 class="title" data-aos="fade-up">My Skills</h2>
-      <div class="skills-content">
-        <div class="column left">
-          <div class="text">
-            My experiences.
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <div class="max-width">
+        <h2 class="title" data-aos="fade-down">My Services</h2>
+        <div class="serv-content">
+          <div class="card" data-aos="flip-left">
+            <div class="box">
+              <i class="fas fa-laptop-code"></i>
+              <div class="text">Web Design</div>
+              <p>
+                Provides minimalistic, elegant, and unique design.
+              </p>
+            </div>
           </div>
-          <p class="paragraph-2">
-            These are a few languages I've been working with recently
-          </p>
-          <a href="#about">Read More</a>
-        </div>
-        <div class="column right skill-box">
-          <div class="icons">
-            <img src="images\skill-icons\icons8-html-5.svg" alt="html", id="html-icon" data-aos="flip-left">
-            <img src="images\skill-icons\icons8-css3.svg" alt="css" id="css-icon" data-aos="flip-left">
-            <img src="images\skill-icons\icons8-javascript.svg" alt="js" id="js-icon" data-aos="flip-left">
-            <img src="images\skill-icons\icons8-bootstrap.svg" alt="react" id="react-icon" data-aos="flip-left">
-          </div>
-  </section>
 
-   <!-- Services Section -->
-   <section class="services" id="works">
-    <div class="max-width">
-      <h2 id="workstitle" class="title" data-aos="fade-down">My Works</h2>
-      <div class="serv-content">
-        <div class="card" data-aos="flip-left">
-          <div class="box">
-            <i class="fas fa-laptop-code"></i>
-            <a id="hidehyper" href="https://leywino.github.io/youtube-clone/">
-              <div id="workstext" class="text">YouTube Clone<img id="worksicon" src="images/icons8-youtube.svg"></div>
-            <p>
-              Static clone of YouTube Homepage.
-            </p>
-            </a>
+          <div class="card" data-aos="flip-left">
+            <div class="box">
+              <i class="fas fa-code"></i>
+              <div class="text">Web Development</div>
+              <p>
+                Makes efficient, minimalistic webpages.
+              </p>
+            </div>
           </div>
-        </div>
 
-        <div class="card" data-aos="flip-left">
-          <div class="box">
-            <i class="fas fa-code"></i>
-            <a id="hidehyper" href="https://leywino.github.io/spotify-clone/">
-              <div id="workstext" class="text">Spotify Clone<img id="worksicon" src="images/icons8-spotify.svg"></div>
-            <p>
-              Static clone of Spotify Website.
-            </p>
-            </a>
-          </div>
-        </div>
-
-        <div class="card" data-aos="flip-left">
-          <div class="box">
-            <i class="fas fa-mobile-alt"></i>
-            <a id="hidehyper" href="https://leywino.github.io/discord-responsive">
-              <div id="workstext" class="text">Discord Clone<img id="worksicon" src="images/icons8-discord.svg"></div>
-            <p>
-              Responsive clone of Discord website.
-            </p>
-            </a>
+          <div class="card" data-aos="flip-left">
+            <div class="box">
+              <i class="fas fa-mobile-alt"></i>
+              <div class="text">Advertising</div>
+              <p>
+                Catchy advertisements to help reach more heights.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Contact Section -->
-  <section class="contact" id="contact">
-    <div class="max-width">
-      <h2 class="title" data-aos="fade-down">Contact Me</h2>
-      <div class="contact-content">
-        <div class="column left" data-aos="flip-left">
-          <div class="text">Let's Get in Touch</div>
-          <p class="paragraph-3">You can submit the form to contact me.</p>
-          <div class="icons">
-            <div class="row">
-              <i class="fas fa-user"></i>
-              <div class="info">
-                <div id="contacthead" class="head">Name</div>
-                <div id="contactsub" class="head">Muhammad Arshad K</div>
-              </div>
+    <!-- skills section services -->
+    <section class="skills" id="skills">
+      <div class="max-width" data-aos="fade-down">
+        <h2 class="title" data-aos="fade-up">My Skills</h2>
+        <div class="skills-content">
+          <div class="column left">
+            <div class="text">
+              My experiences.
             </div>
-            <div class="row">
-              <i class="fas fa-map-marker-alt"></i>
-              <div class="info">
-                <div id="contacthead" class="head">Address</div>
-                <div id="contactsub" class="head">Kottakkal, Malappuram</div>
-              </div>
-            </div>
-            <div class="row">
-              <i class="fas fa-envelope"></i>
-              <div class="info">
-                <div id="contacthead" class="head">Email</div>
-                <div id="contactsub" class="head">muhammadarshadv2@gmail.com</div>
-              </div>
-            </div>
+            <p class="paragraph-2">
+              These are a few languages I've been working with recently
+            </p>
+            <a href="#about">Read More</a>
           </div>
-        </div>
-        <div class="column right" data-aos="flip-right">
-          <div class="text">
-            Message Me
+          <div class="column right skill-box">
+            <div class="icons">
+              <img src="images\skill-icons\icons8-html-5.svg" alt="html",
+                id="html-icon" data-aos="flip-left">
+              <img src="images\skill-icons\icons8-css3.svg" alt="css"
+                id="css-icon" data-aos="flip-left">
+              <img src="images\skill-icons\icons8-javascript.svg" alt="js"
+                id="js-icon" data-aos="flip-left">
+              <img src="images\skill-icons\icons8-bootstrap.svg" alt="react"
+                id="react-icon" data-aos="flip-left">
+            </div>
+          </section>
+
+          <!-- Services Section -->
+          <section class="services" id="works">
+            <div class="max-width">
+              <h2 id="workstitle" class="title" data-aos="fade-down">My Works</h2>
+              <div class="serv-content">
+                <div class="card" data-aos="flip-left">
+                  <div class="box">
+                    <i class="fas fa-laptop-code"></i>
+                    <a id="hidehyper"
+                      href="https://leywino.github.io/youtube-clone/">
+                      <div id="workstext" class="text">YouTube Clone<img
+                          id="worksicon" src="images/icons8-youtube.svg"></div>
+                      <p>
+                        Static clone of YouTube Homepage.
+                      </p>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="card" data-aos="flip-left">
+                  <div class="box">
+                    <i class="fas fa-code"></i>
+                    <a id="hidehyper"
+                      href="https://leywino.github.io/spotify-clone/">
+                      <div id="workstext" class="text">Spotify Clone<img
+                          id="worksicon" src="images/icons8-spotify.svg"></div>
+                      <p>
+                        Static clone of Spotify Website.
+                      </p>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="card" data-aos="flip-left">
+                  <div class="box">
+                    <i class="fas fa-mobile-alt"></i>
+                    <a id="hidehyper"
+                      href="https://leywino.github.io/discord-responsive">
+                      <div id="workstext" class="text">Discord Clone<img
+                          id="worksicon" src="images/icons8-discord.svg"></div>
+                      <p>
+                        Responsive clone of Discord website.
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Contact Section -->
+          <section class="contact" id="contact">
+            <div class="max-width">
+              <h2 class="title" data-aos="fade-down">Contact Me</h2>
+              <div class="contact-content">
+                <div class="column left" data-aos="flip-left">
+                  <div class="text">Let's Get in Touch</div>
+                  <p class="paragraph-3">You can submit the form to contact me.</p>
+                  <div class="icons">
+                    <div class="row">
+                      <i class="fas fa-user"></i>
+                      <div class="info">
+                        <div id="contacthead" class="head">Name</div>
+                        <div id="contactsub" class="head">Muhammad Arshad K</div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <i class="fas fa-map-marker-alt"></i>
+                      <div class="info">
+                        <div id="contacthead" class="head">Address</div>
+                        <div id="contactsub" class="head">Kottakkal, Malappuram</div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <i class="fas fa-envelope"></i>
+                      <div class="info">
+                        <div id="contacthead" class="head">Email</div>
+                        <div id="contactsub" class="head">muhammadarshadv2@gmail.com</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column right" data-aos="flip-right">
+                  <div class="text">
+                    Message Me
+                  </div>
+                  <form action="#Contact" id="gform">
+                    <div class="fields">
+                      <div class="field name">
+
+                        <input type="text" id="name" name="name"
+                          class="fromName" placeholder="Name" required
+                          autocomplete="off">
+                        <small style="color: red" id="name-error"></small>
+                      </div>
+                      <div class="field email">
+                        <input required type="email" name="email" id="email"
+                          placeholder="Email" required autocomplete="off">
+                        <small style="color: red" id="email-error"></small>
+                      </div>
+                    </div>
+                    <div class="field">
+                      <input type="text" id="subject" name="subject"
+                        placeholder="Subject" required autocomplete="off">
+                      <small style="color: red" id="subject-error"></small>
+                    </div>
+                    <div class="field textarea">
+                      <textarea cols="30" rows="10" name="message" id="message"
+                        placeholder="Message" required autocomplete="off"></textarea>
+                      <small style="color: red" id="msg-error"></small>
+                    </div>
+                    <div class="button">
+                      <button class="button" id="button" type="submit">Send
+                        Message</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- footer section start -->
+          <footer>
+            <div class="text-center">
+              <span>
+                Created By <a href="#">Muhammad Arshad</a> | <span class="far
+                  fa-copyright"> </span> <script>document.write(new Date().getFullYear())</script>
+                All rights reserved.
+                <div>
+                  <a
+                    href="https://www.linkedin.com/in/muhammad-arshad-65164024a/"><img
+                      src="images/icons/linkedin.png"></a>
+                  <a href="https://github.com/leywino"><img
+                      src="images/icons/git.png"></i></a>
+                <a href="https://www.instagram.com/leywino/"><img
+                    src="images/icons/insta.svg"></a>
+              </div>
+            </span>
           </div>
-          <form action="#Contact" id="gform">
-            <div class="fields">
-              <div class="field name">
-                
-              <input type="text" id="name" name="name" class="fromName" placeholder="Name" required autocomplete="off">
-              <small style="color: red" id="name-error"></small>
-              </div>
-              <div class="field email">
-                <input required type="email" name="email" id="email" placeholder="Email" required autocomplete="off">
-                <small style="color: red" id="email-error"></small>
-              </div>
-            </div>
-            <div class="field">
-              <input type="text" id="subject" name="subject" placeholder="Subject" required autocomplete="off">
-              <small style="color: red" id="subject-error"></small>
-            </div>
-            <div class="field textarea">
-              <textarea cols="30" rows="10" name="message" id="message" placeholder="Message" required autocomplete="off"></textarea>
-              <small style="color: red" id="msg-error"></small>
-            </div>
-            <div class="button">
-              <button class="button" id="button"  type="submit">Send Message</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- footer section start -->
-  <footer>
-    <div class="text-center">
-      <span>
-        Created By <a href="#">Muhammad Arshad</a> | <span class="far fa-copyright"> </span> <script>document.write(new Date().getFullYear())</script> All rights reserved.
-        <div>
-          <a href="https://www.linkedin.com/in/muhammad-arshad-65164024a/"><img src="images/icons/linkedin.png"></a>
-          <a href="https://github.com/leywino"><img src="images/icons/git.png"></i></a>
-          <a href="https://www.instagram.com/leywino/"><img src="images/icons/insta.svg"></a>
-        </div>
-      </span>
-    </div>
-  </footer>
-  <script src="script.js"></script>
-  <script src="form_validation.js"></script>
-  <script>
+        </footer>
+        <script src="script.js"></script>
+        <script src="form_validation.js"></script>
+        <script>
     // When the user scrolls the page, execute myFunction 
     window.onscroll = function() {myFunction()};
     
@@ -299,9 +328,11 @@
       document.getElementById("myBar").style.width = scrolled + "%";
     }
     </script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>AOS.init({easing : 'ease-in',delay: 100,duration: 300,offset:100});window.addEventListener('load', AOS.refresh);</script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-</body>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>AOS.init({easing : 'ease-in',delay: 100,duration: 300,offset:100});window.addEventListener('load', AOS.refresh);</script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+          integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+          crossorigin="anonymous"></script>
+      </body>
 
-</html>
+    </html>
