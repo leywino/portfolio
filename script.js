@@ -6,35 +6,35 @@ $(document).ready(function () {
             $(".navbar").removeClass("sticky");
         }
     });
-    $('.menu-btn').click(function(){
+    $('.menu-btn').click(function () {
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
 
     // typing animation script
-    var typed = new Typed(".typing",{
-        strings: ["Self-Learner","Flutter Developer","Gamer"],
+    var typed = new Typed(".typing", {
+        strings: ["Self-Learner", "Flutter Developer", "Gamer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true,
         fadeOut: true,
-        
+
     });
-    var typed = new Typed(".typing-2",{
-        strings: ["Self-Learner","Flutter Developer","Gamer"],
+    var typed = new Typed(".typing-2", {
+        strings: ["Self-Learner", "Flutter Developer", "Gamer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true,
     });
 });
 
-     // Scroll to top button script
-        const btnScrollToTop = document.querySelector("#btnScrollToTop");
+// Scroll to top button script
+const btnScrollToTop = document.querySelector("#btnScrollToTop");
 
-        btnScrollToTop.addEventListener("click", function(){
-        window.scrollTo({
+btnScrollToTop.addEventListener("click", function () {
+    window.scrollTo({
         top: 0,
         left: 0,
         behavior: "smooth"
-        });
     });
+});
