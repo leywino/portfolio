@@ -409,6 +409,27 @@ section .title::after {
     color: white;
 }
 
+.column2.right2.skill-box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icons2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .top-icons,
+  .bottom-icons {
+    display: flex;
+  }
+  
+  .bottom-icons {
+    margin-top: 20px; /* Add margin to create space between the two sets of icons */
+  }
+
 .skills .skills-content .right .icons {
     font-size: 50px;
     color: white;
@@ -525,6 +546,15 @@ section .title::after {
     position: absolute;
     top: -5px;
 }
+
+#worksicon2 {
+    position: absolute;
+    top: -5px;
+    right: 35px;
+    height: 48px;
+    width: 48px;
+}
+
 
 /* contact section styling */
 .contact {
