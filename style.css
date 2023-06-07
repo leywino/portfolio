@@ -399,13 +399,17 @@ section .title::after {
 }
 
 
-.skills .skills-content .left #works-link {
+.skills .skills-content .left .underline-link {
     display: inline-block;
     background: none;
     color: #ffff;
     font-size: 17px;
     font-weight: 500;
     transition: all 0.3s ease;
+    border: 0px;
+    padding: 0px;
+    margin-top: 0px;
+    text-decoration: underline;
 }
 
 .skills .skills-content .left .read-more {
@@ -573,13 +577,6 @@ section .title::after {
     width: 48px;
 }
 
-.underline-link {
-    text-decoration: underline;
-  }
-
-  #works-link {
-    text-decoration: underline;
-  }
 
 
 /* contact section styling */
@@ -957,7 +954,7 @@ footer i:hover {
     color: #E0E0E0;
 }
 
-#worksub1,
+#sub1,
 #worksub2,
 #worksub3 {
     display: flex;
