@@ -282,6 +282,12 @@ section .title::after {
     font-size: 18px;
 }
 
+.paragraph-info{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
 .about .about-content .right .p {
     text-align: justify;
 }
@@ -392,7 +398,17 @@ section .title::after {
     text-align: justify;
 }
 
-.skills .skills-content .left a {
+
+.skills .skills-content .left #works-link {
+    display: inline-block;
+    background: none;
+    color: #ffff;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.skills .skills-content .left .read-more {
     display: inline-block;
     background: none;
     color: #23b410;
@@ -492,6 +508,8 @@ section .title::after {
 }
 
 
+
+
 /* .skills .skills-content .right .bars{
     color: white;
  margin-bottom: 15px;
@@ -554,6 +572,14 @@ section .title::after {
     height: 48px;
     width: 48px;
 }
+
+.underline-link {
+    text-decoration: underline;
+  }
+
+  #works-link {
+    text-decoration: underline;
+  }
 
 
 /* contact section styling */
